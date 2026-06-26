@@ -1,0 +1,36 @@
+Este glossário reúne os termos técnicos essenciais encontrados nos materiais, abrangendo as áreas de **Engenharia de Dados**, **Bancos de Dados** e **Gestão do Conhecimento Pessoal**.
+
+### Engenharia e Arquitetura de Dados
+
+*   **Big Data:** Conjunto massivo de dados que excede a capacidade de ferramentas convencionais, caracterizado pelos **"5 Vs"**: Volume, Velocidade, Variedade, Veracidade e Valor.
+*   **Data Lake:** Repositório de larga escala que armazena dados em seu **formato bruto** (estruturados, semiestruturados e não estruturados), utilizando a abordagem *schema-on-read*.
+*   **Data Mart:** Coleção de dados com **escopo reduzido**, focada nas necessidades de um departamento específico (ex: RH ou Financeiro).
+*   **Data Warehouse (DW):** Repositório centralizado, **não volátil**, integrado e variante no tempo, otimizado para suporte à decisão estratégica e análise histórica.
+*   **ETL (Extração, Transformação e Carga):** Processo de integração de dados que consiste em extrair informações de diversas fontes, transformá-las conforme regras de negócio e carregá-las em um repositório final.
+*   **Modelagem Dimensional:** Técnica que organiza os dados em um "cubo", facilitando a visualização por diferentes perspectivas (dimensões) e fatos.
+*   **OLAP (Processamento Analítico Online):** Ferramentas que permitem a manipulação e análise interativa de grandes volumes de dados sob múltiplas perspectivas.
+*   **Snowflake Schema (Floco de Neve):** Variação da modelagem dimensional onde as tabelas de dimensões são **normalizadas**, economizando espaço, mas aumentando a complexidade das consultas.
+*   **Star Schema (Estrela):** Modelo dimensional simples onde as tabelas de dimensões se ligam diretamente a uma tabela de fatos central, **sem normalização**.
+
+### Bancos de Dados Relacionais e Teoria
+
+*   **Álgebra Relacional:** Base matemática para a linguagem SQL, composta por operações como seleção ($\sigma$), projeção ($\pi$) e junção ($\bowtie$).
+*   **Chave Primária (Primary Key):** Atributo ou conjunto de atributos cujos valores são **únicos** e identificam de forma inequívoca uma linha em uma tabela.
+*   **Chave Estrangeira (Foreign Key):** Campo que aponta para a chave primária de outra tabela, estabelecendo um relacionamento e garantindo a **integridade referencial**.
+*   **Integridade Referencial:** Restrição que garante que uma chave estrangeira sempre aponte para uma chave primária existente, impedindo a exclusão de registros "pai" vinculados.
+*   **Normalização:** Processo de organização de dados para evitar redundâncias e anomalias de atualização, passando por etapas denominadas **Formas Normais** (1FN, 2FN, 3FN, FNBC).
+*   **Propriedades ACID:** Conjunto de características (**A**tomicidade, **C**onsistência, **I**solamento e **D**urabilidade) que garantem a confiabilidade de transações em SGBDs.
+*   **SGBD (Sistema Gerenciador de Banco de Dados):** Software responsável por gerenciar a criação, manutenção e acesso aos dados de um banco.
+*   **Teorema CAP:** Princípio para sistemas distribuídos que afirma ser impossível garantir simultaneamente **C**onsistência, **A**disponibilidade e Tolerância a **P**artição.
+
+### Gestão do Conhecimento (Segundo Cérebro)
+
+*   **Active Recall (Recuperação Ativa):** Técnica de estudo baseada na recuperação forçada da informação através de testes e perguntas, em vez da simples releitura.
+*   **CODE:** Metodologia de fluxo de conhecimento que consiste em **C**apturar, **O**rganizar, **D**estilar e **E**xpressar.
+*   **Engenharia de Contexto:** Prática de estruturar o conhecimento pessoal (notas, links, metadados) de forma que ele possa ser usado de maneira eficaz por ferramentas de IA.
+*   **Markdown:** Linguagem de marcação simples usada em ferramentas como o Obsidian para criar documentos de texto plano fáceis de converter e portar.
+*   **MCP (Model Context Protocol):** Protocolo que permite conectar assistentes de IA (como Claude) diretamente a uma base de notas local (Obsidian), fornecendo contexto em tempo real.
+*   **Obsidian:** Aplicativo de notas baseado em **arquivos locais** e links bidirecionais, focado em privacidade e controle total dos dados pelo usuário.
+*   **PARA:** Framework de organização de informações dividido em **P**rojetos, **Á**reas, **R**ecursos e **A**rquivos.
+*   **PKM (Personal Knowledge Management):** Sistema estratégico para gerenciar, conectar e reutilizar informações valiosas ao longo do tempo.
+*   **RAG (Geração Aumentada por Recuperação):** Técnica onde a IA utiliza o acervo pessoal de notas do usuário como contexto para gerar respostas mais precisas e fundamentadas.
