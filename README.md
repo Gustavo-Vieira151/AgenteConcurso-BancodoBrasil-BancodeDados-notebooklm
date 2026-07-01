@@ -45,7 +45,7 @@ Normalização
 Views
 Joins
 Modelagem de Banco de Dados
-🤖 Como utilizei a IA
+-  Como utilizei a IA
 
 A proposta não foi simplesmente pedir respostas prontas.
 
@@ -62,10 +62,10 @@ Utilizei a IA como uma parceira de estudos:
 Essa interação tornou o estudo muito mais dinâmico do que apenas ler PDFs.
 
 Tópico 5 - Estrutura do repositório
-📁 fontes/            -> Materiais utilizados no NotebookLM
-📁 notebooklm/        -> Perguntas, respostas e prompts
-📁 resumo/            -> Guia de estudos e resumos
-📁 imagens/           -> Capturas de tela do projeto
+* fontes/            -> Materiais utilizados no NotebookLM
+* notebooklm/        -> Perguntas, respostas e prompts
+* resumo/            -> Guia de estudos e resumos
+* imagens/           -> Capturas de tela do projeto
 README.md
 
 Tópico 6- O que aprendi
@@ -87,5 +87,3 @@ Tópico 7 - Resultado
 Este repositório reúne o material produzido durante o desafio e também servirá como apoio para minha preparação para concursos na área de Tecnologia da Informação, especialmente para o Banco do Brasil – Agente de Tecnologia.
 
 Se este projeto mostrar uma coisa, é que uma boa combinação de curiosidade, organização e Inteligência Artificial pode transformar horas de leitura em um estudo muito mais direcionado.
-
-Bons estudos! 🚀
